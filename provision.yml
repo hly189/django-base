@@ -1,0 +1,9 @@
+---
+- hosts: web 
+  
+  vars_files:
+  - vars/vars.yml
+  - vars/secrect.yml
+
+  roles:
+  - webserver
